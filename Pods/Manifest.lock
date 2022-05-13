@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (5.6.0)
+  - SwiftMaskDetection (0.1.1)
+
+DEPENDENCIES:
+  - SnapKit
+  - SwiftMaskDetection
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SwiftMaskDetection
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftMaskDetection: 6d8463e3cc32d00c2e4c403e0ee01c0cba11ecfa
+
+PODFILE CHECKSUM: f1c23d4cab45a0d18bd3cd600d1185ea2566ddf9
+
+COCOAPODS: 1.11.3

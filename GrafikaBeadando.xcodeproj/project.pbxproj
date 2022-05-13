@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5081ED282C93D100F6C978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5081EC282C93D100F6C978 /* AppDelegate.swift */; };
+		6B5081EF282C93D100F6C978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5081EE282C93D100F6C978 /* SceneDelegate.swift */; };
+		6B5081F1282C93D100F6C978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5081F0282C93D100F6C978 /* ViewController.swift */; };
+		6B5081F4282C93D100F6C978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5081F2282C93D100F6C978 /* Main.storyboard */; };
+		6B5081F6282C93D200F6C978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5081F5282C93D200F6C978 /* Assets.xcassets */; };
+		6B5081F9282C93D200F6C978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5081F7282C93D200F6C978 /* LaunchScreen.storyboard */; };
+		6B983C79282C964800A2D7AA /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B983C78282C964800A2D7AA /* BoundingBox.swift */; };
+		6B983C7B282C965A00A2D7AA /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B983C7A282C965A00A2D7AA /* PreviewView.swift */; };
+		98825F3F5756CFEA00A1B6F4 /* Pods_GrafikaBeadando.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFA60DC246635B404707636 /* Pods_GrafikaBeadando.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BFA60DC246635B404707636 /* Pods_GrafikaBeadando.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrafikaBeadando.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		378FF8F1194329A5AC67A832 /* Pods-GrafikaBeadando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrafikaBeadando.debug.xcconfig"; path = "Target Support Files/Pods-GrafikaBeadando/Pods-GrafikaBeadando.debug.xcconfig"; sourceTree = "<group>"; };
+		6B5081E9282C93D100F6C978 /* GrafikaBeadando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrafikaBeadando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5081EC282C93D100F6C978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5081EE282C93D100F6C978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B5081F0282C93D100F6C978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B5081F3282C93D100F6C978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5081F5282C93D200F6C978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5081F8282C93D200F6C978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B5081FA282C93D200F6C978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B983C78282C964800A2D7AA /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		6B983C7A282C965A00A2D7AA /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		DFFEBE183F1B2B458A5268DF /* Pods-GrafikaBeadando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrafikaBeadando.release.xcconfig"; path = "Target Support Files/Pods-GrafikaBeadando/Pods-GrafikaBeadando.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5081E6282C93D100F6C978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98825F3F5756CFEA00A1B6F4 /* Pods_GrafikaBeadando.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAE5291A8F5AB9D1C2BC4BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				378FF8F1194329A5AC67A832 /* Pods-GrafikaBeadando.debug.xcconfig */,
+				DFFEBE183F1B2B458A5268DF /* Pods-GrafikaBeadando.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B5081E0282C93D100F6C978 = {
+			isa = PBXGroup;
+			children = (
+				6B5081EB282C93D100F6C978 /* GrafikaBeadando */,
+				6B5081EA282C93D100F6C978 /* Products */,
+				1FAE5291A8F5AB9D1C2BC4BF /* Pods */,
+				CF43B83A94FC0D616C2B00EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5081EA282C93D100F6C978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5081E9282C93D100F6C978 /* GrafikaBeadando.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5081EB282C93D100F6C978 /* GrafikaBeadando */ = {
+			isa = PBXGroup;
+			children = (
+				6B5081EC282C93D100F6C978 /* AppDelegate.swift */,
+				6B5081EE282C93D100F6C978 /* SceneDelegate.swift */,
+				6B983C78282C964800A2D7AA /* BoundingBox.swift */,
+				6B983C7A282C965A00A2D7AA /* PreviewView.swift */,
+				6B5081F0282C93D100F6C978 /* ViewController.swift */,
+				6B5081F2282C93D100F6C978 /* Main.storyboard */,
+				6B5081F5282C93D200F6C978 /* Assets.xcassets */,
+				6B5081F7282C93D200F6C978 /* LaunchScreen.storyboard */,
+				6B5081FA282C93D200F6C978 /* Info.plist */,
+			);
+			path = GrafikaBeadando;
+			sourceTree = "<group>";
+		};
+		CF43B83A94FC0D616C2B00EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BFA60DC246635B404707636 /* Pods_GrafikaBeadando.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5081E8282C93D100F6C978 /* GrafikaBeadando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5081FD282C93D200F6C978 /* Build configuration list for PBXNativeTarget "GrafikaBeadando" */;
+			buildPhases = (
+				9ABC0CE9A122D782CECEDECF /* [CP] Check Pods Manifest.lock */,
+				6B5081E5282C93D100F6C978 /* Sources */,
+				6B5081E6282C93D100F6C978 /* Frameworks */,
+				6B5081E7282C93D100F6C978 /* Resources */,
+				EADF83370C932E015D5437E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrafikaBeadando;
+			productName = GrafikaBeadando;
+			productReference = 6B5081E9282C93D100F6C978 /* GrafikaBeadando.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5081E1282C93D100F6C978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6B5081E8282C93D100F6C978 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B5081E4282C93D100F6C978 /* Build configuration list for PBXProject "GrafikaBeadando" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5081E0282C93D100F6C978;
+			productRefGroup = 6B5081EA282C93D100F6C978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5081E8282C93D100F6C978 /* GrafikaBeadando */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5081E7282C93D100F6C978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5081F9282C93D200F6C978 /* LaunchScreen.storyboard in Resources */,
+				6B5081F6282C93D200F6C978 /* Assets.xcassets in Resources */,
+				6B5081F4282C93D100F6C978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ABC0CE9A122D782CECEDECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrafikaBeadando-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EADF83370C932E015D5437E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrafikaBeadando/Pods-GrafikaBeadando-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrafikaBeadando/Pods-GrafikaBeadando-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrafikaBeadando/Pods-GrafikaBeadando-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5081E5282C93D100F6C978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B983C7B282C965A00A2D7AA /* PreviewView.swift in Sources */,
+				6B5081F1282C93D100F6C978 /* ViewController.swift in Sources */,
+				6B5081ED282C93D100F6C978 /* AppDelegate.swift in Sources */,
+				6B5081EF282C93D100F6C978 /* SceneDelegate.swift in Sources */,
+				6B983C79282C964800A2D7AA /* BoundingBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B5081F2282C93D100F6C978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5081F3282C93D100F6C978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B5081F7282C93D200F6C978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5081F8282C93D200F6C978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B5081FB282C93D200F6C978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B5081FC282C93D200F6C978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5081FE282C93D200F6C978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378FF8F1194329A5AC67A832 /* Pods-GrafikaBeadando.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPTZMP389Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrafikaBeadando/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZoltanToth.GrafikaBeadando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B5081FF282C93D200F6C978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFEBE183F1B2B458A5268DF /* Pods-GrafikaBeadando.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPTZMP389Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrafikaBeadando/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZoltanToth.GrafikaBeadando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5081E4282C93D100F6C978 /* Build configuration list for PBXProject "GrafikaBeadando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5081FB282C93D200F6C978 /* Debug */,
+				6B5081FC282C93D200F6C978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5081FD282C93D200F6C978 /* Build configuration list for PBXNativeTarget "GrafikaBeadando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5081FE282C93D200F6C978 /* Debug */,
+				6B5081FF282C93D200F6C978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5081E1282C93D100F6C978 /* Project object */;
+}
